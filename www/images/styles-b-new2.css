@@ -1,0 +1,323 @@
+body {
+	font-family:      Arial, Verdana, sans-serif;
+	font-size:        12px;
+	color:            #666;
+	background-color: #EFEFEF;
+	margin:           0;
+	padding:          0;
+ 	background-image: url("images/lcfbg.jpg");
+}
+
+/* GLOBAL DECLERATIONS ///////////////////////////////////*/
+
+a, a:visited {
+	text-decoration: none;
+	color:            #0099dd;
+	background-color: transparent;
+}
+
+a:hover {
+	color:            #0097ce;
+	background-color: transparent;
+}
+
+/* END GLOBAL DECLERATIONS ///////////////////////////////*/
+
+
+
+
+/* TEMPLATE DECLERATIONS ///////////////////////////////////*/
+
+#container {
+	/* width:   689px; */
+	width:   943px;
+	height:  auto;
+	margin:  0 auto;
+	padding: 0;
+}
+
+#navigation-cell {
+	/* width:   689px; */
+	width:   943px;
+	background: url(images/glow-top-old.gif) no-repeat bottom;
+	height: 33px;
+}
+
+#body-cell {
+	/* width:   689px; */
+	width:   943px;
+	height:         100%;
+	background:     url(images/glow-old.gif) repeat-y center;
+	padding-bottom: 25px;
+}
+
+#footer-cell {
+	/* width:   689px; */
+	width:   943px;
+	height:     165px;
+	background: url(images/glow-btm-old.gif) no-repeat top;
+}
+
+.clear { clear: both; }
+
+/* END TEMPLATE DECLERATIONS ///////////////////////////////*/
+
+
+
+
+/* CONTENT DECLERATIONS ////////////////////////////////////*/
+
+/* LCF--------------------------*/
+#londoncoursefinder {
+	float:  left;
+	width:  886px;
+	height: 150px;
+	margin: 0 0 0  28px;
+}
+
+/* NAVIGATION--------------------*/
+#navigation {
+	color: #FFF;
+	clear:both;
+	margin: 0 0 0  28px;
+	height: 34px;
+	width:  886px;
+	background: url(images/nav.gif);
+}
+
+ul#nav-list {
+	float:      left;
+	list-style: none;
+	height:     25px;
+	overflow:   hidden;
+	padding:    0;
+	/*margin:     0 auto; */
+	margin: 0;	
+}
+
+ul#nav-list li {
+	display: inline;
+}
+
+ul#nav-list li a {
+	height: 25px;
+	float: left;
+	text-align:  center;
+	line-height: 32px;
+	font-weight: bold;
+	color:  #414143;
+	font-size: 14px;	
+	background-color: transparent;
+	padding: 0 20px 0 10px;
+}
+
+/* NAV LINK-----------------*/
+ 
+ul#nav-list li.navitem a {
+	margin: 0 0 0 20px;
+	color: #FFFFFF;
+}
+ 
+ul#nav-list li.navitem a:hover {
+	color: #088A08;
+}
+ 
+ul#nav-list li.navitem a.current {
+	color: #EEEEEE;
+}	
+	
+#navigation-bottomlevel {
+	color: #111;
+	clear:both;
+	margin: 0 0 0  28px;
+	height: 34px;
+	width:  866px;
+	background: #EFEFEF;
+	padding: 0 0 0 20px;
+}
+
+ul#nav-list-bottomlevel {
+	float:      left;
+	list-style: none;
+	height:     25px;
+	overflow:   hidden;
+	padding:    0;
+	/*margin:     0 auto; */
+	margin: 0;	
+}
+
+ul#nav-list-bottomlevel li {
+	display: inline;
+}
+
+ul#nav-list-bottomlevel li a {
+	height:           25px;
+	float:            left;
+	text-align:       center;
+	line-height:      32px;
+	color:            #111111;
+	font-size: 12px;
+	font-weight: bold;	
+	background-color: transparent;
+	padding: 0 5px 0 7px;
+}
+
+/* NAV LINK-----------------*/
+ 
+ul#nav-list-bottomlevel li.navitem-bottomlevel a {
+	margin: 0 0 0 20px;
+	color: #111111;
+}
+ 
+ul#nav-list-bottomlevel li.navitem-bottomlevel a:hover {
+	color: #FF6600;
+}
+ 
+ul#nav-list-bottomlevel li.navitem-bottomlevel a.current {
+	color: #111111;
+}
+
+#sbanner {
+	clear:both;
+	margin: 0 0 0  28px;
+	height: 26px;
+	padding: 6px 2px 2px 10px;
+	width:  874px;
+	background: #088A08;
+	font-size: 18px;
+	color: #FFF;
+}
+
+
+
+
+#rightpanel {
+float: right;
+width: 190px;
+height: 280px;
+margin: 0 49px 0 0 ;
+border: 0px #999 solid;
+padding: 10px 10px 10px 20px;
+}
+
+
+
+
+/* CONTENT-----------------------*/
+
+#main-content {
+	float:  left;
+	width:  600px;
+	height: auto;
+	margin: 0 0 0 48px;
+	color: #111;
+}
+
+/* FOOTER-------------------------*/
+#sbanner2 {
+	clear:both;
+	margin: 0 0 0 28px;
+	height: 26px;
+	padding: 6px 2px 2px 10px;
+	width:  874px;
+	background: #088A08;
+	font-size: 18px;
+	color: #FFF;
+	text-align: center ;
+}
+
+#footer-nav {
+	clear:both;
+	height: 84px;
+	width:  884px;
+	margin: 0 0 0 28px;
+	padding: 4px 2px 2px 0;	
+	color: #FFF;
+	line-height: 15px;
+	background: url(images/footer-nav.gif);
+	text-align: center;
+	font-size: 12px;
+}
+
+ul#nav-list-footer {
+	list-style: none;
+	height:     80px;
+	overflow:   hidden;
+	padding:    0;
+	/*margin:     0 auto; */
+	margin: 0;
+}
+
+ul#nav-list-footer li {
+	display: inline;
+}
+
+ul#nav-list-footer li a {
+	line-height:      25px;
+	color:            #FFF;	
+	background-color: transparent;
+	padding: 0 15px 0 0;
+}
+
+/* NAV LINK-----------------*/
+ 
+ul#nav-list-footer li.footeritem a {
+	margin: 0 10px 0 10px;
+	color: #FFF;
+}
+ 
+ul#nav-list-footer li.footeritem a:hover {
+	color: #FF6600;
+}
+ 
+ul#nav-list-footer li.footeritem a.current {
+	color: #FFF;
+}
+
+ul#nav-list-footer li.footeritemlower a {
+	margin: 0 15px 0 10px;
+	color: #DDD;
+	line-height: 30px;
+	font-size: 11px;
+}
+ 
+ul#nav-list-footer li.footeritemlower a:hover {
+	color: #FF6600;
+}
+ 
+ul#nav-list-footer li.footeritemlower a.current {
+	color: #DDD;
+}
+
+#footer {
+	float: left;
+	width: 886px;
+	height: 30px;
+	margin: 20px 0 0 28px;
+}
+
+#copyright {
+	float:       left;
+	width:       686px;
+	height:      20px;
+	margin:      0;
+	padding:     0 0 0 300px;
+	font-size:   11px;
+	color:       #111;
+}
+#testdiv {width:600px; margin:0px auto; border:1px solid #ccc; padding:20px 25px 12px; background:#fff}
+.tbox {position:absolute; display:none; padding:14px 17px; z-index:900}
+.tinner {padding:15px; -moz-border-radius:5px; border-radius:5px; background:#fff url(images/preload.gif) no-repeat 50% 50%; border-right:1px solid #333; border-bottom:1px solid #333}
+.tmask {position:absolute; display:none; top:0px; left:0px; height:100%; width:100%; background:#000; z-index:800}
+.tclose {position:absolute; top:0px; right:0px; width:30px; height:30px; cursor:pointer; background:url(images/close.png) no-repeat}
+.tclose:hover {background-position:0 -30px}
+
+#error {background:#ff6969; color:#fff; text-shadow:1px 1px #cf5454; border-right:1px solid #000; border-bottom:1px solid #000; padding:0}
+#error .tcontent {padding:10px 14px 11px; border:1px solid #ffb8b8; -moz-border-radius:5px; border-radius:5px}
+#success {background:#2ea125; color:#fff; text-shadow:1px 1px #1b6116; border-right:1px solid #000; border-bottom:1px solid #000; padding:10; -moz-border-radius:0; border-radius:0}
+#bluemask {background:#4195aa}
+#frameless {padding:0}
+#frameless .tclose {left:6px}
+
+
+/* END TEMPLATE DECLERATIONS ///////////////////////////////*/
